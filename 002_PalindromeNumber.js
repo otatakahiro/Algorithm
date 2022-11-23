@@ -1,5 +1,5 @@
 let x = "kdkkjdkffkdjkkdk";
-
+//
 var isPalindrome = function(x) {
   x = String(x);
   if(x < 0){
