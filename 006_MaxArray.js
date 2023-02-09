@@ -6,7 +6,7 @@ var findMaxConsecutiveOnes = function(nums){
         else number = 0;
         if(maximum < number) maximum = number;
     }   
-    return(maximum);
+    return maximum;
 }
 
 console.log(findMaxConsecutiveOnes([1,1,0,1,1,1,0,1,1,1,1,1,1]));
